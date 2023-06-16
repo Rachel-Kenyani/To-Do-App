@@ -1,0 +1,28 @@
+
+@media only screen and (max-width:700px){
+    .section1{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 1%;
+        width: 90vw;      
+    }
+    .section1 i{
+        padding-left: 1rem;
+    }
+    .section2 h2{
+        margin: 2%
+    }
+    .card{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .todo-input {
+       
+        margin-left: 10%;
+        
+    }
+    .section3 li{
+        margin-left: 10%;
+        
+    }
+
+}

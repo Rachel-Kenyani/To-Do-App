@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgba(229, 212, 231, 0.67);
+
+}
+h1{
+    font-family: 'Redressed';
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    color: #18051A;
+}
+.section1{
+    margin-right: 4vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    width: 30rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    height: 40vh;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #C74CCF 100%);
+    border-radius: 40px;
+}
+.section1 h2{
+    padding-top: 2rem;
+    position: relative;
+    color: #2c0c30;
+    font-size: 2.5rem;
+    font-family: "Roboto Flex";
+    font-weight: 100;
+}
+.section1 i{
+    padding-top: 1.5rem;
+    padding-left: 4rem;
+    color: #fdfdfd;
+    font-size: 4cm;
+}
+.section2 h2{
+    margin-left: 45%;
+    font-size: 5vh;
+    margin-bottom: 3rem;
+}
+.card{
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card h4{
+    font-weight: 300;
+    font-family: "Roboto Flex";
+}
+.category i{
+    color: #2c0c30;
+    font-size: 20vh;
+}
+.cat {
+    text-decoration: none;
+    
+}
+.cat:hover{
+    border: #C74CCF 1px solid;
+    margin-right: 10vw;
+    padding-top: 1vw;
+    border-radius: 10px;
+    box-shadow: 0 0.9rem 2rem rgba(0, 0, 0, 0.1);
+}
+.category .h4{
+    padding-left: 2rem;
+    color: #18051A;
+    font-size: 3vh;
+    
+}
+.section3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.people{
+    margin-left:40% ;
+    margin-top:2rem ;   
+}
+.people i{
+    margin-left: 2rem;
+    color: #C74CCF;
+}
+.people i:hover{
+    color: #2a042c;
+}
+input{
+    background-color: #f7befb;
+    border:none;
+    border-radius: 10px;
+}
+.todo-input {
+    background-color: #44074a;
+    border-radius: 10px;
+    padding: 15px 23px;
+    margin-top: 3rem;
+    margin-left: 40%;
+    border:solid 2px #2c0c30;
+    color: white;
+    font-size: 15px;
+}
+.section3 #button{
+    border: #C74CCF 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+.section3 #button:hover{
+    background-color: #C74CCF ;
+    color: white;
+}
+ 
